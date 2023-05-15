@@ -1,0 +1,13 @@
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /accounts
+Disallow: /welcome/
+Disallow: *.pdf
+Disallow: /*.pdf$
+Disallow: /*.pdf
+Disallow: *.pdf$
+Sitemap: https://www.digitalgregg.com/sitemap.xml
+
+# Allow all crawlers
+User-agent: *
+Allow: /
